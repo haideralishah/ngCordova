@@ -1,0 +1,16 @@
+<ion-view view-title="ng-Cordova Plugins" hide-back-button="true">
+  <ion-content>
+
+    <div class="item item-body">
+      <img class="full-image" src="img/ngCordova.png">
+    </div>
+
+    <div class="list" ng-repeat="plugin in ngCordova.plugins">
+      <a class="item item-text-wrap" href="{{plugin._route}}">
+        <h2>{{plugin.name}}</h2>
+        <p>{{plugin.desc}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
+

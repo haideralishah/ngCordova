@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Ng Cordova -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+    <!-- your Routes js -->
+    <script src="components/ngCordova/ngCordova.js"></script>
+    <script src="components/ngCordova/ngCordovaService.js"></script>
+    <script src="components/actionSheet/actionSheet.js"></script>
+    <script src="components/actionSheet/actionSheetService.js"></script>
+
+  </head>
+  <body ng-app="ngCordovaEG">
+
+  <ion-pane>
+
+    <ion-nav-bar id="ionNav" class="bar-positive">
+      <ion-nav-back-button class="button-clear">
+        <i class="ion-chevron-left"></i> Back
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view>
+    </ion-nav-view>
+
+  </ion-pane>
+  </body>
+</html>
