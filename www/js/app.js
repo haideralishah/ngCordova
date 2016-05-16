@@ -48,6 +48,12 @@
         controller: 'actionSheetController',
         templateUrl: 'components/actionSheet/actionSheet.html',
         controllerAs: 'actionSheet'
+      })
+      .state('appAvailability', {
+        url: '/appAvailability',
+        controller: 'appAvailabilityController',
+        templateUrl: 'components/App%20Availability/appAvailability.html',
+        controllerAs: 'appAvailability'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

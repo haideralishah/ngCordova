@@ -9,9 +9,5 @@
     function ngCordova(availablePlugins){
       var ngCordova = this;
       ngCordova.plugins = availablePlugins;
-      console.log(ngCordova.plugins);
-
-
-
     }
 })();

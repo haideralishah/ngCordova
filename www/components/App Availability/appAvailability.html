@@ -1,0 +1,19 @@
+<ion-view view-title="App Availability" hide-back-button="false">
+  <ion-content>
+    <p></p>
+    <div class="card">
+      <div class="item item-text-wrap">
+        The AppAvailability plugin allows you to check if an app is installed on the user’s device. It requires an URI Scheme (e.g. twitter://) on iOS or a Package Name (e.g com.twitter.android) on Android.
+      </div>
+    </div>
+    <button class="button button-block button-positive" ng-click="appAvailability.checkWhatsApp()">
+      Check What's App
+    </button>
+    <button class="button button-block button-positive" ng-click="appAvailability.checkFacebook()">
+      Check Facebook
+    </button>
+    <button class="button button-block button-positive" ng-click="appAvailability.checkTwitter()">
+      Check Twitter
+    </button>
+  </ion-content>
+</ion-view>
