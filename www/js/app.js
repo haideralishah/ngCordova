@@ -66,6 +66,12 @@
         controller: 'flashLightController',
         templateUrl: 'components/Flash%20Light/flashLight.html',
         controllerAs: 'flashLight'
+      })
+      .state('device', {
+        url: '/device',
+        controller: 'deviceController',
+        templateUrl: 'components/Device/device.html',
+        controllerAs: 'device'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

@@ -29,7 +29,12 @@
         desc: "Flash light can be accessed through this plugin.",
         _route: '#/flashLight'
       };
-      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light];
+      var Device =  {
+        name:'Device',
+        desc: "Grab device related information, such as platform, and device model.",
+        _route: '#/device'
+      };
+      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device];
       return plugins
     }
 })();

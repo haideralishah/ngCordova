@@ -20,14 +20,5 @@
           alert(index);
         });
     };
-
-   /* document.addEventListener("deviceready", function () {
-      $cordovaActionSheet.show(actionSheet.options)
-        .then(function(btnIndex) {
-          var index = btnIndex;
-          alert(index);
-        });
-    }, false);*/
-
   }
 })();
