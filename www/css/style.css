@@ -6,3 +6,6 @@ ion-content button{
   width: 80% !important;
 
 }
+ion-content .para{
+  color: mediumblue;
+}

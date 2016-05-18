@@ -54,11 +54,21 @@
         controller: 'appAvailabilityController',
         templateUrl: 'components/App%20Availability/appAvailability.html',
         controllerAs: 'appAvailability'
+      })
+      .state('batteryStatus', {
+        url: '/batteryStatus',
+        controller: 'batteryStatusController',
+        templateUrl: 'components/Battery%20Status/batteryStatus.html',
+        controllerAs: 'batteryStatus'
+      })
+      .state('flashLight', {
+        url: '/flashLight',
+        controller: 'flashLightController',
+        templateUrl: 'components/Flash%20Light/flashLight.html',
+        controllerAs: 'flashLight'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
-
-
   }
 
 })();
