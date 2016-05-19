@@ -78,6 +78,12 @@
         controller: 'dialogsController',
         templateUrl: 'components/Dialogs/dialogs.html',
         controllerAs: 'dialogs'
+      })
+      .state('imagePicker', {
+        url: '/imagePicker',
+        controller: 'imagePickerController',
+        templateUrl: 'components/Image%20Picker/imagePicker.html',
+        controllerAs: 'imagePicker'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

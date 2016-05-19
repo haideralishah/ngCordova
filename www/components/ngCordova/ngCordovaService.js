@@ -39,7 +39,12 @@
         desc: "Trigger alert, confirm, and prompt windows, or send beeps (beep, beep!)",
         _route: '#/dialogs'
       };
-      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs];
+      var Image_Picker =  {
+        name:'Image Picker',
+        desc: "Cordova Plugin For Multiple Image Selection - implemented for iOS and Android 4.0 and above.",
+        _route: '#/imagePicker'
+      };
+      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker];
       return plugins
     }
 })();
