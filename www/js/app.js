@@ -72,6 +72,12 @@
         controller: 'deviceController',
         templateUrl: 'components/Device/device.html',
         controllerAs: 'device'
+      })
+      .state('dialogs', {
+        url: '/dialogs',
+        controller: 'dialogsController',
+        templateUrl: 'components/Dialogs/dialogs.html',
+        controllerAs: 'dialogs'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

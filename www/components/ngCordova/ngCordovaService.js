@@ -34,7 +34,12 @@
         desc: "Grab device related information, such as platform, and device model.",
         _route: '#/device'
       };
-      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device];
+      var Dialogs =  {
+        name:'Dialogs',
+        desc: "Trigger alert, confirm, and prompt windows, or send beeps (beep, beep!)",
+        _route: '#/dialogs'
+      };
+      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs];
       return plugins
     }
 })();
