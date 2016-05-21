@@ -44,7 +44,14 @@
         desc: "Cordova Plugin For Multiple Image Selection - implemented for iOS and Android 4.0 and above.",
         _route: '#/imagePicker'
       };
-      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker];
+      var Cordova_SMS =  {
+        name:'Cordova SMS',
+        desc: "Easily send SMS natively in iOS or Android SMS app/",
+        _route: '#/cordovaSMS'
+      };
+
+      var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
+        Cordova_SMS];
       return plugins
     }
 })();

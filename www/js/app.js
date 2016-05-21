@@ -84,6 +84,12 @@
         controller: 'imagePickerController',
         templateUrl: 'components/Image%20Picker/imagePicker.html',
         controllerAs: 'imagePicker'
+      })
+      .state('cordovaSMS', {
+        url: '/cordovaSMS',
+        controller: 'cordovaSMSController',
+        templateUrl: 'components/Cordova%20SMS/cordovaSMS.html',
+        controllerAs: 'cordovaSMS'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
