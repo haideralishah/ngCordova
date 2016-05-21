@@ -9,8 +9,9 @@
   function imagePicker(optionsForImagePicker, $cordovaImagePicker){
     var imagePicker = this;
     imagePicker.options = optionsForImagePicker;
-    imagePicker.imagesURI = [];
+
     imagePicker.imageGet = function(){
+      imagePicker.imagesURI = [];
       $cordovaImagePicker.getPictures(imagePicker.options)
         .then(function (results) {
           for (var i = 0; i < results.length; i++) {
