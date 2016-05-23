@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f79c9c7-635b-4e9d-8930-8f856dce9e43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbarService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" afterPath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
     </list>
     <ignored path="ng-cordova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.090909">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.454545">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -41,39 +43,39 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="39" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="39" />
+              <caret line="109" column="39" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cordovaVibration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html">
+      <file leaf-file-name="cordovaStatusbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.4117646">
-              <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+              <caret line="6" column="100" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cordovaVibration.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
+      <file leaf-file-name="cordovaStatusbar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41463414">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.88850176">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#962#1185#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cordovaNetworkService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
+      <file leaf-file-name="cordovaStatusbarService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbarService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -85,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
               <folding>
                 <element signature="e#224#465#0" expanded="false" />
                 <element signature="e#497#791#0" expanded="false" />
@@ -96,6 +98,7 @@
                 <element signature="e#1514#1694#0" expanded="false" />
                 <element signature="e#1721#1858#0" expanded="false" />
                 <element signature="e#1889#2195#0" expanded="false" />
+                <element signature="e#2228#2362#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -123,13 +126,17 @@
         <option value="$PROJECT_DIR$/www/components/Cordova SMS/cordovaSMS.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.js" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html" />
         <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" />
-        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/components/cordovaStatusbar.html" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbarService.js" />
+        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.html" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.js" />
       </list>
     </option>
   </component>
@@ -259,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dialogs" />
+              <option name="myItemId" value="Cordova Vibration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cordova Vibration" />
+              <option name="myItemId" value="Cordova Statusbar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,7 +332,15 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Madhubala" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\New folder\Studies\Sailani PROGRAMES\ngCordova\www\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.cordovaStatusbar.html">
+    <configuration default="false" name="cordovaStatusbar.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49828/ngCordova/www/components/cordovaStatusbar.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -374,6 +389,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cordovaStatusbar.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cordovaStatusbar.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -389,23 +412,41 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13561471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13561471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1897712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1897712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13561471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -417,8 +458,14 @@
           <url>file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js</url>
           <line>12</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="javascript">
+          <url>file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js</url>
+          <line>3</line>
+          <log-expression expression="(function() {&#10;  'use strict';&#10;  angular&#10;    .module('ngCordovaEG')&#10;    .controller('cordovaVibrationController', cordovaVibration);&#10;  function cordovaVibration($cordovaVibration){&#10;    var cordovaVibration = this;&#10;    cordovaVibration.vibrate = function(){&#10;      // Vibrate 1000ms&#10;      $cordovaVibration.vibrate(1000);&#10;    }&#10;  }&#10;})();&#10;" language="JavaScript" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -497,6 +544,7 @@
             <element signature="e#1514#1694#0" expanded="false" />
             <element signature="e#1721#1858#0" expanded="false" />
             <element signature="e#1889#2195#0" expanded="false" />
+            <element signature="e#2228#2362#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -650,20 +698,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-11.454545">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
           <folding>
             <element signature="e#224#465#0" expanded="false" />
             <element signature="e#497#791#0" expanded="false" />
@@ -674,40 +728,63 @@
             <element signature="e#1514#1694#0" expanded="false" />
             <element signature="e#1721#1858#0" expanded="false" />
             <element signature="e#1889#2195#0" expanded="false" />
+            <element signature="e#2228#2362#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.090909">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4076655">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17770036">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="6" column="100" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="100" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbarService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="39" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="39" />
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html">
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Statusbar/cordovaStatusbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4117646">
-          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41463414">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.88850176">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#962#1185#0" expanded="false" />
           </folding>
         </state>
       </provider>

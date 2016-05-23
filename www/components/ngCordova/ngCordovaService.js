@@ -59,8 +59,13 @@
         desc: "Vibrate the device programmatically.",
         _route: '#/cordovaVibration'
       };
+      var Cordova_Statusbar =  {
+        name:'Cordova Statusbar',
+        desc: "Configure the device’s StatusBar with colors and styles.",
+        _route: '#/cordovaStatusbar'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar];
       return plugins
     }
 })();

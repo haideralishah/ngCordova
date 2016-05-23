@@ -1,0 +1,20 @@
+<ion-view view-title="Cordova Statusbar" hide-back-button="false">
+  <ion-content>
+    <div class="card">
+      <div class="item item-text-wrap">
+        Vibrate the device programmatically.
+      </div>
+      <button class="button button-block button-positive" ng-click="cordovaStatusbar.changeStatusbar()">
+        Change Statusbar
+      </button>
+
+      <button class="button button-block button-positive" ng-click="cordovaStatusbar.visibleStatusbar()" ng-hide="cordovaStatusbar.visible">
+        Show Statusbar
+      </button>
+      <button class="button button-block button-positive" ng-click="cordovaStatusbar.visibleStatusbar()" ng-show="cordovaStatusbar.visible">
+        Hide Statusbar
+      </button>
+
+    </div>
+  </ion-content>
+</ion-view>
