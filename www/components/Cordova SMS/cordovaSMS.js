@@ -9,10 +9,11 @@
     .controller('cordovaSMSController', cordovaSMS);
   function cordovaSMS($cordovaSms){
     var cordovaSMS = this;
+
     cordovaSMS.sendSMS = function(){
-      alert('send SMS');
+      cordovaSMS.contact = prompt('Please type the number.');
       $cordovaSms
-        .send('03413542800', 'Hello World')
+        .send(cordovaSMS.contact, 'Hello World')
         .then(function() {
           alert('SMS sent');
           // Success! SMS was sent

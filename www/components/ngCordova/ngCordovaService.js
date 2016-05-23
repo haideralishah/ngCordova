@@ -49,9 +49,13 @@
         desc: "Easily send SMS natively in iOS or Android SMS app/",
         _route: '#/cordovaSMS'
       };
-
+      var Cordova_Network =  {
+        name:'Cordova Network',
+        desc: "This plugin provides an implementation of an old version of the Network Information API. It provides information about the device’s cellular and wifi connection, and whether the device has an internet connection.",
+        _route: '#/cordovaNetwork'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS];
+        Cordova_SMS, Cordova_Network];
       return plugins
     }
 })();

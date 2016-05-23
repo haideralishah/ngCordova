@@ -90,6 +90,12 @@
         controller: 'cordovaSMSController',
         templateUrl: 'components/Cordova%20SMS/cordovaSMS.html',
         controllerAs: 'cordovaSMS'
+      })
+      .state('cordovaNetwork', {
+        url: '/cordovaNetwork',
+        controller: 'cordovaNetworkController',
+        templateUrl: 'components/Cordova%20Network/cordovaNetwork.html',
+        controllerAs: 'cordovaNetwork'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
