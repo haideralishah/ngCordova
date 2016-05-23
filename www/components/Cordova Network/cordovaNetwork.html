@@ -2,11 +2,21 @@
   <ion-content>
     <div class="card">
       <div class="item item-text-wrap">
-        Easily send SMS natively in iOS or Android SMS app.
+        This plugin provides an implementation of an old version of the Network Information API. It provides information about the device’s cellular and wifi connection, and whether the device has an internet connection.
       </div>
       <button class="button button-block button-positive" ng-click="cordovaNetwork.checkNetwork()">
-        Send SMS
+        Check the device status.
       </button>
+      <div ng-hide='cordovaNetwork.deviceStatus'>
+      <div class="item item-text-wrap">
+        You have {{cordovaNetwork.type}} connection.
+      </div>
+      <div class="item item-text-wrap">
+        Your device is {{cordovaNetwork.status}}.
+      </div>
+
+      </div>
+
     </div>
   </ion-content>
 </ion-view>
