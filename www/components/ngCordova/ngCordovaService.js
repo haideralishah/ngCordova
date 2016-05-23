@@ -64,8 +64,13 @@
         desc: "Configure the device’s StatusBar with colors and styles.",
         _route: '#/cordovaStatusbar'
       };
+      var Pin_Dialog =  {
+        name:'Pin Dialog',
+        desc: "Numeric password dialog.",
+        _route: '#/pinDialog'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog];
       return plugins
     }
 })();

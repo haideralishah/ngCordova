@@ -108,6 +108,12 @@
         controller: 'cordovaStatusbarController',
         templateUrl: 'components/Cordova%20Statusbar/cordovaStatusbar.html',
         controllerAs: 'cordovaStatusbar'
+      })
+      .state('pinDialog', {
+        url: '/pinDialog',
+        controller: 'pinDialogController',
+        templateUrl: 'components/Pin%20Dialog/pinDialog.html',
+        controllerAs: 'pinDialog'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
