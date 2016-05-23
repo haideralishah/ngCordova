@@ -96,6 +96,12 @@
         controller: 'cordovaNetworkController',
         templateUrl: 'components/Cordova%20Network/cordovaNetwork.html',
         controllerAs: 'cordovaNetwork'
+      })
+      .state('cordovaVibration', {
+        url: '/cordovaVibration',
+        controller: 'cordovaVibrationController',
+        templateUrl: 'components/Cordova%20Vibration/cordovaVibration.html',
+        controllerAs: 'cordovaVibration'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
