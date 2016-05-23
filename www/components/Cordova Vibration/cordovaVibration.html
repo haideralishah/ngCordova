@@ -1,22 +1,12 @@
-<ion-view view-title="Cordova SMS" hide-back-button="false">
+<ion-view view-title="Cordova Vibration" hide-back-button="false">
   <ion-content>
     <div class="card">
       <div class="item item-text-wrap">
-        This plugin provides an implementation of an old version of the Network Information API. It provides information about the device’s cellular and wifi connection, and whether the device has an internet connection.
+        Vibrate the device programmatically.
       </div>
-      <button class="button button-block button-positive" ng-click="cordovaNetwork.checkNetwork()">
-        Check the device status.
+      <button class="button button-block button-positive" ng-click="cordovaVibration.vibrate()">
+        Vibrate
       </button>
-      <div ng-hide='cordovaNetwork.deviceStatus'>
-        <div class="item item-text-wrap">
-          You have {{cordovaNetwork.type}} connection.
-        </div>
-        <div class="item item-text-wrap">
-          Your device is {{cordovaNetwork.status}}.
-        </div>
-
-      </div>
-
     </div>
   </ion-content>
 </ion-view>

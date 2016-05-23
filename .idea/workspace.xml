@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f79c9c7-635b-4e9d-8930-8f856dce9e43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html" afterPath="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" afterPath="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" afterPath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="ng-cordova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.090909">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
+              <caret line="103" column="39" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -47,48 +50,18 @@
       <file leaf-file-name="cordovaVibration.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4117646">
+              <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cordovaVibration.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cordovaVibration.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cordovaVibrationService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cordovaNetwork.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cordovaNetwork.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.41463414">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -100,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -112,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="e#224#465#0" expanded="false" />
                 <element signature="e#497#791#0" expanded="false" />
@@ -122,6 +95,7 @@
                 <element signature="e#1336#1486#0" expanded="false" />
                 <element signature="e#1514#1694#0" expanded="false" />
                 <element signature="e#1721#1858#0" expanded="false" />
+                <element signature="e#1889#2195#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,15 +121,15 @@
         <option value="$PROJECT_DIR$/www/components/Cordova SMS/cordovaSMSService.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova SMS/cordovaSMS.html" />
         <option value="$PROJECT_DIR$/www/components/Cordova SMS/cordovaSMS.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js" />
-        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" />
-        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" />
-        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" />
         <option value="$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js" />
+        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js" />
+        <option value="$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html" />
       </list>
     </option>
   </component>
@@ -522,6 +496,7 @@
             <element signature="e#1336#1486#0" expanded="false" />
             <element signature="e#1514#1694#0" expanded="false" />
             <element signature="e#1721#1858#0" expanded="false" />
+            <element signature="e#1889#2195#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,14 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.090909">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Cordova SMS/cordovaSMS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -655,10 +622,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.836237">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34843206">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="e#224#465#0" expanded="false" />
             <element signature="e#497#791#0" expanded="false" />
@@ -668,67 +673,42 @@
             <element signature="e#1336#1486#0" expanded="false" />
             <element signature="e#1514#1694#0" expanded="false" />
             <element signature="e#1721#1858#0" expanded="false" />
+            <element signature="e#1889#2195#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetworkService.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-15.090909">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibrationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="103" column="39" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Cordova Network/cordovaNetwork.html">
+    <entry file="file://$PROJECT_DIR$/www/components/Cordova Vibration/cordovaVibration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.41463414">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
