@@ -114,6 +114,12 @@
         controller: 'pinDialogController',
         templateUrl: 'components/Pin%20Dialog/pinDialog.html',
         controllerAs: 'pinDialog'
+      })
+      .state('toast', {
+        url: '/toast',
+        controller: 'toastController',
+        templateUrl: 'components/Toast/toast.html',
+        controllerAs: 'toast'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

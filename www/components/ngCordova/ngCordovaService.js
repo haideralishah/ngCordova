@@ -69,8 +69,13 @@
         desc: "Numeric password dialog.",
         _route: '#/pinDialog'
       };
+      var Toast =  {
+        name:'Toast',
+        desc: "This plugin allows you to show a native Toast (a little text popup) on iOS, Android and WP8. It’s great for showing a non intrusive native notification which is guaranteed always in the viewport of the browser.",
+        _route: '#/toast'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast];
       return plugins
     }
 })();
