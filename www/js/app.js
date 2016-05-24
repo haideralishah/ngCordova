@@ -120,6 +120,12 @@
         controller: 'toastController',
         templateUrl: 'components/Toast/toast.html',
         controllerAs: 'toast'
+      })
+      .state('splashScreen', {
+        url: '/splashScreen',
+        controller: 'splashScreenController',
+        templateUrl: 'components/Splash%20Screen/splashScreen.html',
+        controllerAs: 'splashScreen'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

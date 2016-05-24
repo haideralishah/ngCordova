@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f79c9c7-635b-4e9d-8930-8f856dce9e43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ng-cordova.iml" afterPath="$PROJECT_DIR$/.idea/ng-cordova.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" afterPath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.354838">
-              <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+            <state vertical-scroll-proportion="-10.064516">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="28" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="28" />
+              <caret line="127" column="35" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="35" />
               <folding>
                 <element signature="e#466#1105#0" expanded="false" />
               </folding>
@@ -49,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toast.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/components/Toast/toast.html">
+      <file leaf-file-name="splashScreen.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11660777">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toast.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Toast/toast.js">
+      <file leaf-file-name="splashScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="20" />
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -71,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toastService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/components/Toast/toastService.js">
+      <file leaf-file-name="splashScreenService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreenService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -83,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngCordovaService.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ngCordovaService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.6834171">
+              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
               <folding>
                 <element signature="e#224#465#0" expanded="false" />
                 <element signature="e#497#791#0" expanded="false" />
@@ -101,6 +99,7 @@
                 <element signature="e#2228#2362#0" expanded="false" />
                 <element signature="e#2395#2549#0" expanded="false" />
                 <element signature="e#2575#2683#0" expanded="false" />
+                <element signature="e#2704#2989#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -139,12 +138,15 @@
         <option value="$PROJECT_DIR$/www/components/Pin Dialog/pinDialogService.js" />
         <option value="$PROJECT_DIR$/www/components/Pin Dialog/pinDialog.html" />
         <option value="$PROJECT_DIR$/www/components/Pin Dialog/pinDialog.js" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/components/Toast/toastService.js" />
-        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
         <option value="$PROJECT_DIR$/www/components/Toast/toast.js" />
         <option value="$PROJECT_DIR$/www/components/Toast/toast.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/components/Splash Screen/splashScreen.html" />
+        <option value="$PROJECT_DIR$/www/components/Splash Screen/splashScreen.js" />
+        <option value="$PROJECT_DIR$/www/components/Splash Screen/splashScreenService.js" />
+        <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
       </list>
     </option>
   </component>
@@ -235,6 +237,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Toast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngCordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngCordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Splash Screen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,7 +489,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -473,7 +497,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1840731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1840731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -533,24 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
-          <folding>
-            <element signature="e#466#1105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Toast/toast.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -622,6 +628,7 @@
             <element signature="e#2228#2362#0" expanded="false" />
             <element signature="e#2395#2549#0" expanded="false" />
             <element signature="e#2575#2683#0" expanded="false" />
+            <element signature="e#2704#2989#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,6 +703,7 @@
             <element signature="e#2228#2362#0" expanded="false" />
             <element signature="e#2395#2549#0" expanded="false" />
             <element signature="e#2575#2683#0" expanded="false" />
+            <element signature="e#2704#2989#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -874,45 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.354838">
-          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="28" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="28" />
-          <folding>
-            <element signature="e#466#1105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding>
-            <element signature="e#224#465#0" expanded="false" />
-            <element signature="e#497#791#0" expanded="false" />
-            <element signature="e#821#985#0" expanded="false" />
-            <element signature="e#1012#1146#0" expanded="false" />
-            <element signature="e#1168#1313#0" expanded="false" />
-            <element signature="e#1336#1486#0" expanded="false" />
-            <element signature="e#1514#1694#0" expanded="false" />
-            <element signature="e#1721#1858#0" expanded="false" />
-            <element signature="e#1889#2195#0" expanded="false" />
-            <element signature="e#2228#2362#0" expanded="false" />
-            <element signature="e#2395#2549#0" expanded="false" />
-            <element signature="e#2575#2683#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Pin Dialog/pinDialogService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2562814">
@@ -939,20 +908,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Toast/toastService.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.064516">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Toast/toast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0519263">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Toast/toastService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050251257">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -961,9 +956,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Toast/toast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11660777">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="35" />
+          <folding>
+            <element signature="e#466#1105#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Splash Screen/splashScreenService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6834171">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <folding>
+            <element signature="e#224#465#0" expanded="false" />
+            <element signature="e#497#791#0" expanded="false" />
+            <element signature="e#821#985#0" expanded="false" />
+            <element signature="e#1012#1146#0" expanded="false" />
+            <element signature="e#1168#1313#0" expanded="false" />
+            <element signature="e#1336#1486#0" expanded="false" />
+            <element signature="e#1514#1694#0" expanded="false" />
+            <element signature="e#1721#1858#0" expanded="false" />
+            <element signature="e#1889#2195#0" expanded="false" />
+            <element signature="e#2228#2362#0" expanded="false" />
+            <element signature="e#2395#2549#0" expanded="false" />
+            <element signature="e#2575#2683#0" expanded="false" />
+            <element signature="e#2704#2989#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -74,8 +74,13 @@
         desc: "This plugin allows you to show a native Toast (a little text popup) on iOS, Android and WP8. It’s great for showing a non intrusive native notification which is guaranteed always in the viewport of the browser.",
         _route: '#/toast'
       };
+      var Splash_Screen =  {
+        name:'Splash Screen',
+        desc: "Show or hide the Splash Screen.",
+        _route: '#/splashScreen'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen];
       return plugins
     }
 })();
