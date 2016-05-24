@@ -79,8 +79,13 @@
         desc: "Show or hide the Splash Screen.",
         _route: '#/splashScreen'
       };
+      var Spinner_Dialog =  {
+        name:'Spinner Dialog',
+        desc: "A dialog with a spinner wheel.",
+        _route: '#/spinnerDialog'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen, Spinner_Dialog];
       return plugins
     }
 })();

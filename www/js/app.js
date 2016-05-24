@@ -126,6 +126,12 @@
         controller: 'splashScreenController',
         templateUrl: 'components/Splash%20Screen/splashScreen.html',
         controllerAs: 'splashScreen'
+      })
+      .state('spinnerDialog', {
+        url: '/spinnerDialog',
+        controller: 'spinnerDialogController',
+        templateUrl: 'components/Spinner%20Dialog/spinnerDialog.html',
+        controllerAs: 'spinnerDialog'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
