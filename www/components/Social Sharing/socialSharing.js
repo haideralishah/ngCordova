@@ -11,27 +11,46 @@
 
     var socialSharing = this;
     socialSharing.contentToShare = contentToShare;
+
+    /*****Function For Share Via Native Sheet*****/
     socialSharing.shareViaNativeShareSheet = function(){
       $cordovaSocialSharing
         .share(socialSharing.contentToShare.message, socialSharing.contentToShare.subject, socialSharing.contentToShare.file, socialSharing.contentToShare.link) // Share via native share sheet
         .then(function(result) {
+          alert("Shared");
           // Success!
         }, function(err) {
           // An error occured. Show a message to the user
-          alert(err);
+          alert("Error occurred");
         });
     };
 
+    /*****Function For Share Via Twitter*****/
     socialSharing.shareViaTwitter = function(){
       $cordovaSocialSharing
         .shareViaTwitter(socialSharing.contentToShare.message, socialSharing.contentToShare.image, socialSharing.contentToShare.link)
         .then(function(result) {
           // Success!
+          alert("Shared");
         }, function(err) {
           // An error occurred. Show a message to the user
-          alert("Check if twitter is installed?");
+          alert("Error occurred, check if twitter is installed?");
         });
     };
+
+    /*****Function For Share Via What's App*****/
+    socialSharing.shareViaWhatsApp = function(){
+      $cordovaSocialSharing
+        .shareViaWhatsApp(socialSharing.contentToShare.message, socialSharing.contentToShare.image, socialSharing.contentToShare.link)
+        .then(function(result) {
+          // Success!
+          alert("Shared");
+        }, function(err) {
+          // An error occurred. Show a message to the user
+          alert("Error occurred, check if What's App is installed?");
+        });
+    };
+
 
 
 
