@@ -79,6 +79,18 @@
         });
     };
 
+    /*****Function For Share Via Email*****/
+    socialSharing.shareViaEmail = function(){
+      $cordovaSocialSharing
+        .shareViaEmail(socialSharing.contentToShare.message, socialSharing.contentToShare.subject, socialSharing.contentToShare.toArr, socialSharing.contentToShare.ccArr, socialSharing.contentToShare.bccArr, socialSharing.contentToShare.file)
+        .then(function(result) {
+          // Success!
+          alert("Shared");
+        }, function(err) {
+          // An error occurred. Show a message to the user
+          alert("Error occurred.");
+        });
+    };
 
   /*  $cordovaSocialSharing
       .shareViaTwitter(message, image, link)
