@@ -11,7 +11,6 @@
 
     var socialSharing = this;
     socialSharing.contentToShare = contentToShare;
-    console.log(socialSharing.contentToShare);
     socialSharing.shareViaNativeShareSheet = function(){
       $cordovaSocialSharing
         .share(socialSharing.contentToShare.message, socialSharing.contentToShare.subject, socialSharing.contentToShare.file, socialSharing.contentToShare.link) // Share via native share sheet
@@ -19,6 +18,18 @@
           // Success!
         }, function(err) {
           // An error occured. Show a message to the user
+          alert(err);
+        });
+    };
+
+    socialSharing.shareViaTwitter = function(){
+      $cordovaSocialSharing
+        .shareViaTwitter(socialSharing.contentToShare.message, socialSharing.contentToShare.image, socialSharing.contentToShare.link)
+        .then(function(result) {
+          // Success!
+        }, function(err) {
+          // An error occurred. Show a message to the user
+          alert("Check if twitter is installed?");
         });
     };
 

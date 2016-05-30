@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f79c9c7-635b-4e9d-8930-8f856dce9e43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" afterPath="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html" afterPath="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.js" afterPath="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.js" />
     </list>
     <ignored path="ng-cordova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="socialSharing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.346154">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,11 +59,11 @@
       <file leaf-file-name="socialSharing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5316456">
-              <caret line="16" column="119" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="119" />
+            <state vertical-scroll-proportion="0.5886076">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-                <element signature="e#806#2437#0" expanded="false" />
+                <element signature="e#1203#2834#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharingService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -149,10 +147,10 @@
         <option value="$PROJECT_DIR$/www/components/Spinner Dialog/spinnerDialog.html" />
         <option value="$PROJECT_DIR$/www/components/Spinner Dialog/spinnerDialog.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html" />
         <option value="$PROJECT_DIR$/www/components/ngCordova/ngCordovaService.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/components/Social Sharing/socialSharingService.js" />
+        <option value="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html" />
         <option value="$PROJECT_DIR$/www/components/Social Sharing/socialSharing.js" />
       </list>
     </option>
@@ -756,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.346154">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.038462">
@@ -777,21 +767,29 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharingService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/Social Sharing/socialSharing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5316456">
-          <caret line="16" column="119" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="119" />
+        <state vertical-scroll-proportion="0.5886076">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#806#2437#0" expanded="false" />
+            <element signature="e#1203#2834#0" expanded="false" />
           </folding>
         </state>
       </provider>
