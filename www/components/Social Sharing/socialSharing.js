@@ -51,6 +51,18 @@
         });
     };
 
+    /*****Function For Share Via Facebook*****/
+    socialSharing.shareViaFacebook = function(){
+      $cordovaSocialSharing
+        .shareViaFacebook(socialSharing.contentToShare.message, socialSharing.contentToShare.image, socialSharing.contentToShare.link)
+        .then(function(result) {
+          // Success!
+          alert("Shared");
+        }, function(err) {
+          // An error occurred. Show a message to the user
+          alert("Error occurred, check if Facebook is installed?");
+        });
+    };
 
 
 
