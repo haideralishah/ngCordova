@@ -132,6 +132,12 @@
         controller: 'spinnerDialogController',
         templateUrl: 'components/Spinner%20Dialog/spinnerDialog.html',
         controllerAs: 'spinnerDialog'
+      })
+      .state('socialSharing', {
+        url: '/socialSharing',
+        controller: 'socialSharingController',
+        templateUrl: 'components/Social%20Sharing/socialSharing.html',
+        controllerAs: 'socialSharing'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

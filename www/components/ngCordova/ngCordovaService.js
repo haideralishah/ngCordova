@@ -84,8 +84,14 @@
         desc: "A dialog with a spinner wheel.",
         _route: '#/spinnerDialog'
       };
+      var Social_Sharing =  {
+        name:'Social Sharing',
+        desc: "Share images, text, messages via Facebook, Twitter, Email, SMS, WhatsApp, etc using this plugin.",
+        _route: '#/socialSharing'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
-        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen, Spinner_Dialog];
+        Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen, Spinner_Dialog,
+        Social_Sharing];
       return plugins
     }
 })();
