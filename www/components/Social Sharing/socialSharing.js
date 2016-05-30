@@ -64,6 +64,20 @@
         });
     };
 
+    /*****Function For Share Via SMS*****/
+      // access multiple numbers in a string like: '0612345678,0687654321'
+    socialSharing.shareViaSMS = function(){
+      var sendingNumber = prompt('Type Number');
+      $cordovaSocialSharing
+        .shareViaSMS(socialSharing.contentToShare.message, sendingNumber)
+        .then(function(result) {
+          // Success!
+          alert("Shared");
+        }, function(err) {
+          // An error occurred. Show a message to the user
+          alert("Error occurred.");
+        });
+    };
 
 
   /*  $cordovaSocialSharing
