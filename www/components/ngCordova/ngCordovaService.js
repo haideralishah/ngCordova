@@ -89,9 +89,15 @@
         desc: "Share images, text, messages via Facebook, Twitter, Email, SMS, WhatsApp, etc using this plugin.",
         _route: '#/socialSharing'
       };
+      var Geolocation =  {
+        name:'Geolocation',
+        desc: "Grab the current location of the user, or grab continuous location changes.",
+        _route: '#/geolocation'
+      };
+
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
         Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen, Spinner_Dialog,
-        Social_Sharing];
+        Social_Sharing, Geolocation];
       return plugins
     }
 })();

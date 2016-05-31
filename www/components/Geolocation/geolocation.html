@@ -1,0 +1,18 @@
+<ion-view view-title="Geolocation" hide-back-button="false">
+  <ion-content>
+    <div class="card">
+      <div class="item item-text-wrap">
+        Grab the current location of the user, or grab continuous location changes.
+      </div>
+    </div>
+    <button class="button button-block button-positive" ng-click="geolocation.checkCurrentPosition()">
+      How It Works!
+    </button>
+    <div class="card" ng-hide="geolocation.checkGeolocation">
+      <div class="item item-text-wrap">
+        {{geolocation.latitude}}
+        {{geolocation.longitude}}
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

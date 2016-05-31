@@ -138,6 +138,12 @@
         controller: 'socialSharingController',
         templateUrl: 'components/Social%20Sharing/socialSharing.html',
         controllerAs: 'socialSharing'
+      })
+      .state('geolocation', {
+        url: '/geolocation',
+        controller: 'geolocationController',
+        templateUrl: 'components/Geolocation/geolocation.html',
+        controllerAs: 'geolocation'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
