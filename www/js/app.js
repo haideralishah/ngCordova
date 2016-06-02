@@ -150,6 +150,12 @@
         controller: 'cameraController',
         templateUrl: 'components/Camera/camera.html',
         controllerAs: 'camera'
+      })
+      .state('capture', {
+        url: '/capture',
+        controller: 'captureController',
+        templateUrl: 'components/Capture/capture.html',
+        controllerAs: 'capture'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');

@@ -99,9 +99,14 @@
         desc: 'This service makes it easy to use the cordova-plugin-camera plugin to take pictures and video from a device. NOTE: The camera API only works on a real device, and not in the emulator.',
         _route: '#/camera'
       };
+      var Capture =  {
+        name:'Capture',
+        desc: 'This plugin allows you to record sound, video and images through the native capabilities of the device.',
+        _route: '#/capture'
+      };
       var plugins = [Action_Sheet, App_Availability, Battery_Status, Flash_Light, Device, Dialogs, Image_Picker,
         Cordova_SMS, Cordova_Network, Cordova_Vibration, Cordova_Statusbar, Pin_Dialog, Toast, Splash_Screen, Spinner_Dialog,
-        Social_Sharing, Geolocation, Camera];
+        Social_Sharing, Geolocation, Camera, Capture];
       return plugins
     }
 })();
