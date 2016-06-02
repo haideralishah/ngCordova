@@ -144,6 +144,12 @@
         controller: 'geolocationController',
         templateUrl: 'components/Geolocation/geolocation.html',
         controllerAs: 'geolocation'
+      })
+      .state('camera', {
+        url: '/camera',
+        controller: 'cameraController',
+        templateUrl: 'components/Camera/camera.html',
+        controllerAs: 'camera'
       });
     $urlRouterProvider
       .otherwise('/ngCordova');
