@@ -2,14 +2,19 @@
   <ion-content>
     <div class="card">
       <div class="item item-text-wrap">
-        Grab the current location of the user, or grab continuous location changes.
+        This service makes it easy to use the cordova-plugin-camera plugin to take pictures and video from a device.
+        NOTE: The camera API only works on a real device, and not in the emulator.
       </div>
     </div>
+
     <button class="button button-block button-positive" ng-click="camera.getPicture()">
       Take an snap!
     </button>
-    <img alt="My Image" id="myImage">
 
+    <div class="item item-body" ng-hide="camera.imgStatus">
+      <img class="full-image" id="myImage">
     </div>
+
+
   </ion-content>
 </ion-view>
