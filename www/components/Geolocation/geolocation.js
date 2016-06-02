@@ -21,11 +21,29 @@
           geolocation.longitude = position.coords.longitude;
           alert(geolocation.latitude);
           alert(geolocation.longitude);
+          var watch = $cordovaGeolocation.watchPosition(geolocation.posOptions);
+          watch.then(
+            null,
+            function(err) {
+              // error
+            },
+            function(position) {
+              geolocation.latitude  = position.coords.latitude;
+              geolocation.longitude = position.coords.longitude;
+            });
+          watch.clearWatch();
+
+          if(geolocation.latitude && geolocation.longitude){
+            geolocation.checkGeolocation = false;
+          }
+          else{
+            geolocation.checkGeolocation = true;
+          }
         }, function(err) {
           // error
           alert(JSON.stringify(err));
         });
-     /* var watch = $cordovaGeolocation.watchPosition(geolocation.posOptions);
+      var watch = $cordovaGeolocation.watchPosition(geolocation.posOptions);
       watch.then(
         null,
         function(err) {
@@ -35,17 +53,7 @@
           geolocation.latitude  = position.coords.latitude;
           geolocation.longitude = position.coords.longitude;
         });
-      watch.clearWatch();*/
+      watch.clearWatch();
     };
-
-    if(geolocation.latitude && geolocation.longitude){
-      geolocation.checkGeolocation = false;
-    }
-    else{
-      geolocation.checkGeolocation = true;
-    }
-
-
-
   }
 })();
